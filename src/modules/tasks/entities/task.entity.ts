@@ -6,7 +6,7 @@ import {
   UpdateDateColumn,
 } from 'typeorm'
 import { TaskPriority, TaskStatus } from '../enums/task.enum'
-import { SwaggerDecorators } from 'src/common/decorator/swagger.decorators'
+import { SwaggerDecorators } from '../../../common/decorator/swagger.decorators'
 
 @Entity('tasks')
 export class Task {

@@ -3,7 +3,7 @@ import { InjectRepository } from '@nestjs/typeorm'
 import { Repository } from 'typeorm'
 import { Task } from './entities/task.entity'
 import { CreateTaskDto } from './dto/createTask.dto'
-import { TaskFilters } from 'src/interfaces/task.interface'
+import { TaskFilters } from '../../interfaces/task.interface'
 import { buildTaskFilters } from './helpers/helper'
 import { ERROR_MESSAGES } from '../../utils/constants'
 

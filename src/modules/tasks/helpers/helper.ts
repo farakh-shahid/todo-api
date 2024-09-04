@@ -1,7 +1,7 @@
 import { Between, Like, FindOptionsWhere, In } from 'typeorm'
 import { Task } from '../entities/task.entity'
 import { TaskPriority, TaskStatus } from '../enums/task.enum'
-import { TaskFilters } from 'src/interfaces/task.interface'
+import { TaskFilters } from '../../../interfaces/task.interface'
 
 /**
  * Builds a TypeORM `where` condition object for filtering tasks based on the provided filters.
